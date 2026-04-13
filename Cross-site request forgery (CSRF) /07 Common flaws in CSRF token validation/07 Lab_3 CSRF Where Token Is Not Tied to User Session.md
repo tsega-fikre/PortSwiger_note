@@ -148,3 +148,4 @@ Using a valid token from attacker account:
 > The application implements CSRF tokens but fails to bind them to user sessions. A token obtained from one account can be reused to perform actions on another account. By capturing a valid token from the attacker’s account and embedding it into a crafted HTML form, a CSRF attack was executed successfully. When the victim accessed the malicious page, their browser submitted a request containing their session cookie and the attacker’s token, resulting in unauthorized email modification.
 
 ---
+![alt text](image-4.png)
