@@ -251,7 +251,7 @@ This lab demonstrates a **classic null byte injection** attack against a blackli
 
 ---
 
-![alt text](image-2.png)
+![alt text](File%20upload%20vulnerabilities/07%20Insufficient%20blacklisting%20of%20dangerous%20file%20types/image-2.png)
 
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](File%20upload%20vulnerabilities/07%20Insufficient%20blacklisting%20of%20dangerous%20file%20types/image.png)
+![alt text](File%20upload%20vulnerabilities/07%20Insufficient%20blacklisting%20of%20dangerous%20file%20types/image-1.png)

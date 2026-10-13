@@ -85,4 +85,4 @@ Space in URL = `%20`
 
 I discovered that MySQL requires a space after `--` for comments, encoded it as `%20` in the URL, and solved the lab.
 
-![alt text](image.png)
+![alt text](SQL%20injection/02%20Examining%20the%20database%20in%20SQL%20injection%20attacks/image.png)

@@ -59,4 +59,4 @@ Try variations like:
 
 👉 These help bypass filters in real-world apps
 
-![alt text](image.png)
+![alt text](Path%20traversal/01Reading%20arbitrary%20files%20via%20path%20traversal/image.png)

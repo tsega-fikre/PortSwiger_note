@@ -168,4 +168,4 @@ http://127.1/%2561dmin/delete?username=carlos
 - [URL encoding bypasses](https://portswigger.net/web-security/ssrf/lab-ssrf-with-blacklist-filter)
 
 ---
-![alt text](image.png)
+![alt text](Server-side%20request%20forgery%20(SSRF)%20attacks/04%20Circumventing%20common%20SSRF%20defenses/image.png)

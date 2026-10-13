@@ -11,9 +11,9 @@
 
 <br>
 
-[![Labs Solved](https://img.shields.io/badge/Labs%20Solved-46-22d3ee?style=for-the-badge&logo=hackthebox&logoColor=white)](#-solved-labs)
-[![Categories](https://img.shields.io/badge/Categories%20Active-8-3fb950?style=for-the-badge&logo=target&logoColor=white)](#-categories-covered)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-Sep%202026-0891b2?style=for-the-badge&logo=clockify&logoColor=white)](#)
+[![Labs Solved](https://img.shields.io/badge/Labs%20Solved-65-22d3ee?style=for-the-badge&logo=hackthebox&logoColor=white)](#-solved-labs)
+[![Categories](https://img.shields.io/badge/Categories%20Active-10-3fb950?style=for-the-badge&logo=target&logoColor=white)](#-categories-covered)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-Oct%202026-0891b2?style=for-the-badge&logo=clockify&logoColor=white)](#)
 
 <br>
 
@@ -46,18 +46,20 @@ Every lab was broken manually: no walkthroughs copy-pasted, no auto-solvers, no 
 
 > Only categories with actual notes or lab files in this repo are listed here.
 
-| Category | Folder | Labs Solved | Status |
+| Category | Folder | Labs | Status |
 |---|---|:---:|:---:|
 | SQL injection | `SQL injection/` | 15 | 🟡 In progress |
 | Server-side request forgery (SSRF) | `Server-side request forgery (SSRF) attacks/` | 5 | ✅ Done |
 | File upload vulnerabilities | `File upload vulnerabilities/` | 6 | ✅ Done |
 | Path traversal | `Path traversal/` | 6 | ✅ Done |
+| Authentication vulnerabilities | `Authentication vulnerabilities/` | 8 | ✅ Done |
 | Cross-site request forgery (CSRF) | `Cross-site request forgery (CSRF)/` | 7 | 🟡 In progress |
-| Cross-origin resource sharing (CORS) | `Cross-origin resource sharing (CORS)/` | 3 | 🟡 In progress |
+| Cross-origin resource sharing (CORS) | `Cross-origin resource sharing (CORS)/` | 3 | ✅ Done |
 | JWT attacks | `JWT attack/` | 4 | 🟡 In progress |
-| API testing | `API testing/` | — | � Notes only |
-| Authentication | `Server-side vulnerabilities/Authentication/` | — | � Notes only |
-| OS Command injection | `Server-side vulnerabilities/OS Command/` | — | � Notes only |
+| Cross-site scripting (XSS) | `Cross-site scripting (XSS)/` | 11 | 🟡 In progress |
+| API testing | `API testing/` | — | 📖 Notes only |
+| HTTP request smuggling | `HTTP request smuggling/` | — | 📖 Notes only |
+| XXE injection | `XML external entity (XXE) injection/` | — | 📖 Notes only |
 
 ---
 
@@ -94,10 +96,14 @@ Server-side request forgery (SSRF) attacks/
 ### 🔷 File Upload Vulnerabilities
 ```
 File upload vulnerabilities/
+├── 01 Impact/
+├── 02 How vuln arises/
+├── 03 How web servers handle static files/
 ├── 04 Unrestricted web shell upload/ → Lab_1
 ├── 05 Flawed validation/             → Lab_2 (Content-Type bypass)
 ├── 06 Preventing execution/
-├── 07 Insufficient blacklisting/     → Lab_3 (path traversal), Lab_4 (blacklist bypass), Lab_5 (obfuscated ext)
+├── 07 Insufficient blacklisting/     → Lab_3 (path traversal), Lab_4 (blacklist bypass),
+│                                       Lab_5 (obfuscated extension)
 ├── 08 Flawed content validation/     → Lab_6 (polyglot web shell)
 ├── 09 Race conditions/
 ├── 10 Without remote code execution/
@@ -114,17 +120,41 @@ Path traversal/
 └── 03 How to prevent/
 ```
 
+### 🔷 Authentication Vulnerabilities
+```
+Authentication vulnerabilities/
+├── 01 Intro/                         → What is auth, auth vs authorization
+├── 02 Intro to its vuln/             → How vulns arise, impact
+├── 03 Vulnerabilities in password-based login/
+│       → Lab: Broken brute-force protection, IP block
+│       → Lab: Broken brute-force protection, multiple credentials per request
+├── 04 Vulnerabilities in multi-factor authentication/
+│       → Lab: 2FA simple bypass
+│       → Lab: 2FA bypass using a brute-force attack
+└── 05 Vulnerabilities in Other Authentication Mechanisms/
+        → Lab: Brute-forcing a stay-logged-in cookie
+        → Lab: Offline password cracking
+        → Lab: Password reset poisoning via middleware
+        → Lab: Password brute-force via password change
+```
+
 ### 🔷 CSRF
 ```
 Cross-site request forgery (CSRF)/
 ├── 01–04  What is CSRF / How it works / Constructing / Delivering
+│           → Lab_1: CSRF vulnerability with no defenses
 ├── 05     Common defences
 ├── 06     CSRF tokens
-├── 07     Flaws in token validation  → Lab_1–5 (method, presence, session tie, cookie, duplication)
+├── 07     Flaws in token validation
+│           → Lab_2: Token depends on request method
+│           → Lab_3: Token depends on token being present
+│           → Lab_4: Token not tied to user session
+│           → Lab_5: Token tied to non-session cookie
+│           → Lab_6: Token duplicated in cookie
 ├── 08–10  SameSite cookie restrictions (Strict / Lax / None)
-├── 11     Bypass SameSite Lax via GET → Lab_6
-├── 12     Bypass via on-site gadgets → Lab_7 (client-side redirect)
-└── 13     Bypass with newly issued cookies
+├── 11     Bypass SameSite Lax via GET request → Lab_7
+├── 12     Bypass via on-site gadgets           → Lab_8 (client-side redirect)
+└── 13     Bypass with newly issued cookies     → notes only
 ```
 
 ### 🔷 CORS
@@ -134,9 +164,9 @@ Cross-origin resource sharing (CORS)/
 ├── 02 Same-origin policy
 ├── 03 Relaxation of same-origin policy
 ├── 04 Vulnerabilities from CORS config issues
-│       → Lab_1 (basic origin reflection)
-│       → Lab_2 (trusted null origin)
-│       → Lab_3 (trusted insecure protocols)
+│       → Lab_1: Basic origin reflection
+│       → Lab_2: Trusted null origin
+│       → Lab_3: Trusted insecure protocols
 ├── 05 How to prevent CORS attacks
 └── TIP.md
 ```
@@ -146,10 +176,33 @@ Cross-origin resource sharing (CORS)/
 JWT attack/
 ├── 01 What is JSON Web Tokens (JWTs)?  → Format, signature, JWS vs JWE
 ├── 02 Exploiting flawed signature verification
-│       → Lab_1 (unverified signature)
-│       → Lab_2 (alg:none — no signature)
-├── 03 Brute-forcing secret keys        → Lab_3 (weak key via hashcat)
-└── 04 JWT header parameter injections  → Lab_4 (jwk embedded key injection)
+│       → Lab_1: Unverified signature
+│       → Lab_2: alg:none — no signature
+├── 03 Brute-forcing secret keys        → Lab_3: Weak key via hashcat
+└── 04 JWT header parameter injections  → Lab_4: jwk embedded key injection
+```
+
+### 🔷 Cross-site Scripting (XSS)
+```
+Cross-site scripting (XSS)/
+├── 01 What is Cross-site scripting/
+├── 02 What are the types of XSS attacks?/
+│   ├── 01 Reflected XSS/
+│   │       → Lab: Reflected XSS into HTML context with nothing encoded
+│   ├── 02 Stored XSS/
+│   │       → Lab: Stored XSS into HTML context with nothing encoded
+│   ├── 03 DOM-based XSS/
+│   │       → Lab: DOM XSS in document.write sink using source location.search
+│   │       → Lab: DOM XSS in document.write sink inside a select element
+│   │       → Lab: DOM XSS in innerHTML sink using source location.search
+│   │       → Lab: DOM XSS in jQuery anchor href attribute sink
+│   │       → Lab: DOM XSS in jQuery selector sink using hashchange event
+│   │       → Lab: DOM XSS in AngularJS expression (angle brackets + HTML-encoded)
+│   │       → Lab: Reflected DOM XSS
+│   ├── 04 Exploiting XSS/
+│   │       → Lab: Exploiting XSS to steal cookies
+│   └── 05 Dangling markup injection/
+│           → Lab: Reflected XSS with strict CSP + dangling markup attack
 ```
 
 ### 🔷 API Testing *(notes only)*
@@ -159,15 +212,15 @@ API testing/
 └── 02 API documentation/ → Reading docs, discovering undocumented endpoints
 ```
 
-### 🔷 Server-Side Fundamentals *(notes only)*
+### 🔷 HTTP Request Smuggling *(notes only)*
 ```
-Server-side vulnerabilities/
-├── Authentication/   → Vuln types, brute force, username enumeration, 2FA bypass
-├── OS Command/       → What is it, useful commands, injection techniques
-├── SQL Injection/    → Cheat sheets, detecting, retrieving hidden data
-├── File Upload Vuln/ → Early notes on the topic
-├── Path Transversal/ → Access control notes, privilege escalation
-└── sever-side Request/ → SSRF early notes
+HTTP request smuggling/
+└── 01 Intro/         → Intro notes
+```
+
+### 🔷 XXE Injection *(notes only)*
+```
+XML external entity (XXE) injection/   → Folder exists, notes coming soon
 ```
 
 ---
@@ -206,7 +259,7 @@ Server-side vulnerabilities/
 | 28 | 2026-06-23 | File upload | Web shell upload via extension blacklist bypass | Practitioner |
 | 29 | 2026-06-24 | File upload | Web shell upload via obfuscated file extension | Practitioner |
 | 30 | 2026-06-24 | File upload | Remote code execution via polyglot web shell upload | Practitioner |
-| 31 | 2026-08-03 | SQL injection | SQL injection attack — querying DB type and version on Oracle | Practitioner |
+| 31 | 2026-08-03 | SQL injection | SQL injection — querying DB type and version on Oracle | Practitioner |
 | 32 | 2026-08-04 | CSRF | CSRF vulnerability with no defenses | Practitioner |
 | 33 | 2026-08-04 | CSRF | CSRF where token validation depends on request method | Practitioner |
 | 34 | 2026-08-04 | CSRF | CSRF where token validation depends on token being present | Practitioner |
@@ -222,6 +275,25 @@ Server-side vulnerabilities/
 | 44 | 2026-08-08 | JWT | JWT authentication bypass via flawed signature verification (alg:none) | Apprentice |
 | 45 | 2026-08-08 | JWT | JWT authentication bypass via weak signing key | Practitioner |
 | 46 | 2026-08-09 | JWT | JWT authentication bypass via jwk header injection | Practitioner |
+| 47 | 2026-10-03 | Authentication | Broken brute-force protection, IP block | Practitioner |
+| 48 | 2026-10-03 | Authentication | 2FA simple bypass | Apprentice |
+| 49 | 2026-10-06 | Authentication | Brute-forcing a stay-logged-in cookie | Practitioner |
+| 50 | 2026-10-06 | Authentication | Offline password cracking | Practitioner |
+| 51 | 2026-10-06 | Authentication | Password reset poisoning via middleware | Practitioner |
+| 52 | 2026-10-06 | Authentication | Password brute-force via password change | Practitioner |
+| 53 | 2026-10-07 | Authentication | Broken brute-force protection, multiple credentials per request | Expert |
+| 54 | 2026-10-08 | Authentication | 2FA bypass using a brute-force attack | Expert |
+| 55 | 2026-10-12 | XSS | Reflected XSS into HTML context with nothing encoded | Apprentice |
+| 56 | 2026-10-12 | XSS | Stored XSS into HTML context with nothing encoded | Apprentice |
+| 57 | 2026-10-12 | XSS | DOM XSS in document.write sink using source location.search | Apprentice |
+| 58 | 2026-10-12 | XSS | DOM XSS in document.write sink inside a select element | Practitioner |
+| 59 | 2026-10-12 | XSS | DOM XSS in innerHTML sink using source location.search | Apprentice |
+| 60 | 2026-10-12 | XSS | DOM XSS in jQuery anchor href attribute sink | Apprentice |
+| 61 | 2026-10-13 | XSS | DOM XSS in jQuery selector sink using a hashchange event | Apprentice |
+| 62 | 2026-10-13 | XSS | DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded | Apprentice |
+| 63 | 2026-10-13 | XSS | Reflected DOM XSS | Practitioner |
+| 64 | 2026-10-13 | XSS | Exploiting XSS to steal cookies | Practitioner |
+| 65 | 2026-10-13 | XSS | Reflected XSS with strict CSP + dangling markup attack | Expert |
 
 ---
 
@@ -245,13 +317,13 @@ Server-side vulnerabilities/
 ┌──(tsega㉿cyberlord)-[~/portswigger]
 └─$ cat objectives.txt
 
-  [ ] Finish SQL injection track       (Oracle, advanced UNION, second-order)
+  [ ] Finish XSS track                 (password capture, CSRF bypass via XSS)
   [ ] Finish CSRF SameSite bypass labs (newly issued cookies)
-  [ ] Add more CORS labs               (internal network attacks)
   [ ] Complete JWT header injections   (jku, kid parameter attacks)
   [ ] Start API testing labs           (mass assignment, SSPP)
-  [ ] Start XSS track
-  [ ] Start Access control labs
+  [ ] Start XXE injection track
+  [ ] Start HTTP request smuggling track
+  [ ] Push toward first Expert lab
 ```
 
 ---

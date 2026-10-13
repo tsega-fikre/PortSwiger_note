@@ -6,4 +6,4 @@
 
 # Done !!
 
-![alt text](image.png)
+![alt text](Cross-origin%20resource%20sharing%20(CORS)/05/image.png)

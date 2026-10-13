@@ -239,4 +239,4 @@ https://YOUR-LAB-ID.web-security-academy.net/post/comment/confirmation?postId=1/
 ```
 
 ---
-![alt text](image.png)
+![alt text](Cross-site%20request%20forgery%20(CSRF)%20/12%20Bypassing%20SameSite%20restrictions%20using%20on-site%20gadgets/image.png)

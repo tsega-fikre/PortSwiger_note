@@ -150,5 +150,5 @@ Using:
 
 ---
 
-![alt text](image.png)
+![alt text](Cross-site%20request%20forgery%20(CSRF)%20/07%20Common%20flaws%20in%20CSRF%20token%20validation/image.png)
 

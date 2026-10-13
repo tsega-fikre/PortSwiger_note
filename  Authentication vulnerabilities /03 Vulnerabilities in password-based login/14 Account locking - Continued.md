@@ -1,0 +1,3 @@
+- Account locking also fails to protect against credential stuffing attacks. This involves using a massive dictionary of `username:password` pairs, composed of genuine login credentials stolen in data breaches.
+- Credential stuffing relies on the fact that many people reuse the same username and password on multiple websites and, therefore, there is a chance that some of the compromised credentials in the dictionary are also valid on the target website. Account locking does not protect against credential stuffing because each username is only being attempted once.
+- Credential stuffing is particularly dangerous because it can sometimes result in the attacker compromising many different accounts with just a single automated attack. 

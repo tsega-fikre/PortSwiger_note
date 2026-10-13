@@ -312,4 +312,4 @@ WHERE uri_path LIKE '/files/avatars/%.php'
 
 This write-up demonstrates how even **robust content-based validation** can be bypassed using polyglot techniques, emphasizing that **re-encoding images** (not just validating them) is critical for truly secure image upload functionality.
 
-![alt text](image.png)
+![alt text](File%20upload%20vulnerabilities/08%20Flawed%20validation%20of%20the%20file's%20contents/image.png)

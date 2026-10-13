@@ -87,4 +87,4 @@ Why not?
 - Whitelisting if not possible (structure changes)  
 - **Never string concatenation with user input** — even if you "think" it's safe today
 
-![alt text](image.png)
+![alt text](SQL%20injection/09%20How%20to%20prevent%20SQL%20injection%20/image.png)

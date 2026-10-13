@@ -168,4 +168,4 @@ stockApi=http://192.168.0.68:8080/admin/delete?username=carlos
 
 ---
 
-![alt text](image.png)
+![alt text](Server-side%20request%20forgery%20(SSRF)%20attacks/03%20Common%20SSRF%20attacks/image.png)

@@ -1,0 +1,283 @@
+{
+  "main": {
+    "id": "4dd61f5a971e953b",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a83d3b0f9e86baf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11f35a8160eb1cc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/03 DOM-based XSS/15 DOM XSS combined with reflected and stored data.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "15 DOM XSS combined with reflected and stored data"
+            }
+          },
+          {
+            "id": "c38cf329653dd2b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/05 Dangling markup injection/02 Lab Reflected XSS protected by very strict CSP, with dangling markup attack.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02 Lab Reflected XSS protected by very strict CSP, with dangling markup attack"
+            }
+          },
+          {
+            "id": "e43c0bc61d213865",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/06 Resetting user passwords/04 Lab Password Brute-Force via Password Change.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "04 Lab Password Brute-Force via Password Change"
+            }
+          },
+          {
+            "id": "f17abe3aeac2e4c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/05 Lab Offline Password Cracking.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "05 Lab Offline Password Cracking"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bb8730176a07d674",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ebc12668d92c908",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab9349f0e5478ae6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1d67bcf993dbd2c0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "504883f68822d4cf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9b1826221ce02309",
+    "type": "split",
+    "children": [
+      {
+        "id": "45054045da05f1ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c5ae9d0aaa5512e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/03 DOM-based XSS/06 Exploiting DOM XSS with different sources and sinks.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "c20e711ba5a508d2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/03 DOM-based XSS/06 Exploiting DOM XSS with different sources and sinks.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "78b21cf8cebaf491",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0f776ee63d97400e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "107bf9cbdc0e239f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/03 DOM-based XSS/06 Exploiting DOM XSS with different sources and sinks.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "ab9349f0e5478ae6",
+  "lastOpenFiles": [
+    "XML external entity (XXE) injection",
+    "HTTP request smuggling/01 Intro",
+    "HTTP request smuggling",
+    "0 Proof images/Pasted image 20261013200542.png",
+    "0 Proof images/Pasted image 20261013200523.png",
+    "0 Proof images/Pasted image 20261013200505.png",
+    "0 Proof images/Pasted image 20261013191108.png",
+    "0 Proof images/Pasted image 20261013191039.png",
+    "0 Proof images/Pasted image 20261013190953.png",
+    "0 Proof images/Pasted image 20261013190856.png",
+    "0 Proof images/Pasted image 20261013183226.png",
+    "0 Proof images/Pasted image 20261013183120.png",
+    "0 Proof images/Pasted image 20261013183000.png",
+    " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/06 Resetting user passwords/03 Changing user passwords.md",
+    " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/06 Resetting user passwords/04 Lab Password Brute-Force via Password Change.md",
+    " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/06 Resetting user passwords/02 Lab Password Reset Poisoning via Middleware.md",
+    " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/06 Resetting user passwords/01 Introduction.md",
+    " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/05 Lab Offline Password Cracking.md",
+    " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/06 Resetting user passwords",
+    " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/04 Stealing Guessing the Cookie Without an Account.md",
+    " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/03 Lab Brute-forcing a stay-logged-in cookie.md",
+    " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/02 Keeping users logged in.md",
+    " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/01 Introdution.md",
+    " Authentication vulnerabilities /04 Vulnerabilities in multi-factor authentication/07 Lab 2FA bypass using a brute-force attack.md",
+    " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms",
+    " Authentication vulnerabilities /04 Vulnerabilities in multi-factor authentication/06 Brute-forcing 2FA verification codes.md",
+    " Authentication vulnerabilities /04 Vulnerabilities in multi-factor authentication/05 Flawed Two-Factor Verification Logic.md",
+    " Authentication vulnerabilities /04 Vulnerabilities in multi-factor authentication/04 Lab 2FA simple bypass.md",
+    " Authentication vulnerabilities /04 Vulnerabilities in multi-factor authentication/03 Bypassing two-factor authentication.md",
+    " Authentication vulnerabilities /04 Vulnerabilities in multi-factor authentication/02 Two-factor authentication tokens.md",
+    " Authentication vulnerabilities /04 Vulnerabilities in multi-factor authentication/01 Introduction.md",
+    " Authentication vulnerabilities /03 Vulnerabilities in password-based login/16 Lab Broken brute-force protection, multiple credentials per request.md",
+    " Authentication vulnerabilities /04 Vulnerabilities in multi-factor authentication",
+    " Authentication vulnerabilities /03 Vulnerabilities in password-based login/15 User rate limiting.md",
+    " Authentication vulnerabilities /03 Vulnerabilities in password-based login/14 Account locking - Continued.md",
+    "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/05 Dangling markup injection/02 Lab Reflected XSS protected by very strict CSP, with dangling markup attack.md",
+    "ljoche endale bemibal dereja fkregna alachew.md",
+    "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/05 Dangling markup injection/dangling markup injection.md",
+    "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/04 Exploiting cross-site scripting vulnerabilities/Exploiting cross-site scripting to bypass CSRF protections.md",
+    "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/05 Dangling markup injection",
+    "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/04 Exploiting cross-site scripting vulnerabilities/05 Stored XSS – Stealing Credentials.md",
+    "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/04 Exploiting cross-site scripting vulnerabilities/04 Exploiting XSS to Capture Passwords — Explained Simply.md",
+    "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/04 Exploiting cross-site scripting vulnerabilities",
+    "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/03 DOM-based XSS",
+    "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/02 Stored XSS",
+    "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/01 Reflected XSS"
+  ]
+}

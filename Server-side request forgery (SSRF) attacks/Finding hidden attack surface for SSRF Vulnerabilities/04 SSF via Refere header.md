@@ -266,4 +266,4 @@ It takes 2 seconds and has found countless hidden SSRF vulnerabilities in the wi
 The Referer header is like a secret backdoor into the server's internal network — because the server itself will happily walk through that door for you.
 
 
-![alt text](image.png)
+![alt text](Server-side%20request%20forgery%20(SSRF)%20attacks/Finding%20hidden%20attack%20surface%20for%20SSRF%20Vulnerabilities/image.png)

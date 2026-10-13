@@ -76,5 +76,5 @@ But if you *must*, this **Canonicalization Check** is the industry standard. It 
 The text mentions "After validating... canonicalize the path." There is a tiny, advanced attack called **Time of Check, Time of Use (TOCTOU)** where the file system changes *between* the check and the read. That's an advanced topic, but the fix there is to **open the file handle first, then check the canonical path of the open file**. The Java `Files.readAttributes()` or `file.toPath().toRealPath()` methods help mitigate this.
 
 
-![alt text](image.png)
+![alt text](Path%20traversal/03%20How%20to%20prevent%20a%20path%20traversal%20attack/image.png)
 

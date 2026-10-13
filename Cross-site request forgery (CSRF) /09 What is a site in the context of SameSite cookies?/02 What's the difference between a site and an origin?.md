@@ -31,7 +31,7 @@ The text you provided highlights a crucial security implication:
 
 Let's translate that using the table you provided.
 
-![alt text](image-1.png)
+![alt text](Cross-site%20request%20forgery%20(CSRF)%20/09%20What%20is%20a%20site%20in%20the%20context%20of%20SameSite%20cookies?/image-1.png)
 
 **Scenario:**
 You have a secure main app: `https://app.example.com`

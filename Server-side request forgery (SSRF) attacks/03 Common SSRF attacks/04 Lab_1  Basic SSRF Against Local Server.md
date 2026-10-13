@@ -163,4 +163,4 @@ stockApi=http%3A%2F%2Flocalhost%2Fadmin%2Fdelete%3Fusername%3Dcarlos
 `#SSRF` `#PortSwigger` `#WebSecurity` `#BurpSuite` `#Apprentice` `#Localhost` `#BugBounty`
 
 ---
-![alt text](image-1.png)
+![alt text](Server-side%20request%20forgery%20(SSRF)%20attacks/03%20Common%20SSRF%20attacks/image-1.png)

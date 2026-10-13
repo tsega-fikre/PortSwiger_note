@@ -59,7 +59,7 @@ If you own `app.example.co.uk`:
 | `https://app.example.com` | `https://login.example.com` | ✅ **YES** | Same eTLD+1 (both are `example.com`) |
 | `https://example.com` | `https://evil.com` | ❌ **NO** | Different eTLD+1 |
 
-![alt text](image.png)
+![alt text](Cross-site%20request%20forgery%20(CSRF)%20/09%20What%20is%20a%20site%20in%20the%20context%20of%20SameSite%20cookies?/image.png)
 
 **Correction on Subdomains:** *In the previous response, I stated `app` vs `login` was a bypass. That was incorrect for modern **Default Lax**.* Modern `SameSite` **DOES** allow cookies across subdomains of the same registrable domain (eTLD+1).
 - `app.example.com` and `login.example.com` **are the same site** for the bouncer.

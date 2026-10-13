@@ -45,4 +45,4 @@ But the **assistant (server)** is trusted and allowed inside. So you trick the a
 **Simple summary:**  
 SSRF = tricking a server into visiting places it shouldn’t, so it steals secrets or does damage for you.
 
-![alt text](image.png)
+![alt text](Server-side%20request%20forgery%20(SSRF)%20attacks/01%20What%20is%20SSRF?/image.png)

@@ -128,4 +128,4 @@ administrator~6v1u4grmex3cqegxx3r7
 
 **Lab Completed Successfully**
 
-![alt text](image-1.png)
+![alt text](SQL%20injection/02%20Examining%20the%20database%20in%20SQL%20injection%20attacks/image-1.png)
