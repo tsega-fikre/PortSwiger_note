@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/06 Resetting user passwords/04 Lab Password Brute-Force via Password Change.md",
+                "file": "HTTP request smuggling/08 CL.0 request smuggling/Testing for CL.0 Vulnerabilities.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04 Lab Password Brute-Force via Password Change"
+              "title": "Testing for CL.0 Vulnerabilities"
             }
           },
           {
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/05 Lab Offline Password Cracking.md",
+                "file": "HTTP request smuggling/Confirming HTTP request smuggling vulnerabilities using differential responses/03 Lab HTTP request smuggling, confirming a CL.TE vulnerability via differential responses.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05 Lab Offline Password Cracking"
+              "title": "03 Lab HTTP request smuggling, confirming a CL.TE vulnerability via differential responses"
             }
           }
         ],
@@ -126,7 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 266.5
   },
   "right": {
     "id": "9b1826221ce02309",
@@ -233,51 +233,51 @@
   },
   "active": "ab9349f0e5478ae6",
   "lastOpenFiles": [
-    "XML external entity (XXE) injection",
-    "HTTP request smuggling/01 Intro",
-    "HTTP request smuggling",
-    "0 Proof images/Pasted image 20261013200542.png",
-    "0 Proof images/Pasted image 20261013200523.png",
-    "0 Proof images/Pasted image 20261013200505.png",
-    "0 Proof images/Pasted image 20261013191108.png",
-    "0 Proof images/Pasted image 20261013191039.png",
-    "0 Proof images/Pasted image 20261013190953.png",
-    "0 Proof images/Pasted image 20261013190856.png",
-    "0 Proof images/Pasted image 20261013183226.png",
-    "0 Proof images/Pasted image 20261013183120.png",
-    "0 Proof images/Pasted image 20261013183000.png",
-    " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/06 Resetting user passwords/03 Changing user passwords.md",
+    "0 Proof images/Pasted image 20261021193251.png",
+    "0 Proof images/Pasted image 20261021195749.png",
+    "0 Proof images/Pasted image 20261021195829.png",
+    "0 Proof images/Pasted image 20261021195908.png",
+    "0 Proof images/Pasted image 20261021195957.png",
+    "0 Proof images/Pasted image 20261021200010.png",
+    "0 Proof images/Pasted image 20261021202033.png",
+    "0 Proof images/Pasted image 20261021202018.png",
+    "0 Proof images/Pasted image 20261022092929.png",
+    "0 Proof images/Pasted image 20261022092954.png",
+    "0 Proof images/Pasted image 20261022093004.png",
+    "HTTP request smuggling/08 CL.0 request smuggling/01 CL.0 Request Smuggling.md",
+    "HTTP request smuggling/08 CL.0 request smuggling/Testing for CL.0 Vulnerabilities.md",
+    "HTTP request smuggling/07 HTTP-2 request smuggling/04 Request smuggling via CRLF injection.md",
+    "HTTP request smuggling/08 CL.0 request smuggling",
+    "HTTP request smuggling/07 HTTP-2 request smuggling/03 H2.TE Vulnerabilities.md",
+    "HTTP request smuggling/07 HTTP-2 request smuggling/01 HTTP_2 Downgrading.md",
+    "HTTP request smuggling/07 HTTP-2 request smuggling/02 H2.CL Vulnerabilities.md",
+    "HTTP request smuggling/07 HTTP-2 request smuggling/HTTP-2 Request Smuggling.md",
+    "HTTP request smuggling/07 HTTP-2 request smuggling",
+    "HTTP request smuggling/06 Advanced request smuggling/01 Advanced Request Smuggling.md",
+    "HTTP request smuggling/05 Exploiting HTTP request smuggling vulnerabilities/05 Using HTTP request smuggling to turn an on-site redirect into an open redirect.md",
+    "HTTP request smuggling/06 Advanced request smuggling",
+    "HTTP request smuggling/05 Exploiting HTTP request smuggling vulnerabilities/04 Using HTTP request smuggling to exploit reflected XSS.md",
+    "HTTP request smuggling/05 Exploiting HTTP request smuggling vulnerabilities/03 Bypassing client authentication.md",
+    "HTTP request smuggling/05 Exploiting HTTP request smuggling vulnerabilities/02 Revealing front-end request rewriting.md",
+    "HTTP request smuggling/05 Exploiting HTTP request smuggling vulnerabilities/01 Using HTTP request smuggling to bypass front-end security controls.md",
+    "HTTP request smuggling/02 How to perform an HTTP request smuggling attack/02 CL.TE vulnerabilities.md",
+    "HTTP request smuggling/02 How to perform an HTTP request smuggling attack/04 TE.CL vulnerabilities.md",
+    "HTTP request smuggling/04 Confirming HTTP request smuggling vulnerabilities using differential responses/03 Lab HTTP request smuggling, confirming a CL.TE vulnerability via differential responses.md",
+    "HTTP request smuggling/04 Confirming HTTP request smuggling vulnerabilities using differential responses/04 Confirming TE.CL vulnerabilities using differential responses.md",
+    "HTTP request smuggling/05 Exploiting HTTP request smuggling vulnerabilities",
+    "HTTP request smuggling/04 Confirming HTTP request smuggling vulnerabilities using differential responses/02 Confirming CL.TE vulnerabilities using differential responses.md",
+    "HTTP request smuggling/04 Confirming HTTP request smuggling vulnerabilities using differential responses/01 Confirming HTTP request smuggling vulnerabilities using differential responses.md",
     " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/06 Resetting user passwords/04 Lab Password Brute-Force via Password Change.md",
-    " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/06 Resetting user passwords/02 Lab Password Reset Poisoning via Middleware.md",
-    " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/06 Resetting user passwords/01 Introduction.md",
-    " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/05 Lab Offline Password Cracking.md",
-    " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/06 Resetting user passwords",
-    " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/04 Stealing Guessing the Cookie Without an Account.md",
-    " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/03 Lab Brute-forcing a stay-logged-in cookie.md",
-    " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/02 Keeping users logged in.md",
-    " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms/01 Introdution.md",
-    " Authentication vulnerabilities /04 Vulnerabilities in multi-factor authentication/07 Lab 2FA bypass using a brute-force attack.md",
-    " Authentication vulnerabilities /05 Vulnerabilities in Other Authentication Mechanisms",
-    " Authentication vulnerabilities /04 Vulnerabilities in multi-factor authentication/06 Brute-forcing 2FA verification codes.md",
-    " Authentication vulnerabilities /04 Vulnerabilities in multi-factor authentication/05 Flawed Two-Factor Verification Logic.md",
-    " Authentication vulnerabilities /04 Vulnerabilities in multi-factor authentication/04 Lab 2FA simple bypass.md",
-    " Authentication vulnerabilities /04 Vulnerabilities in multi-factor authentication/03 Bypassing two-factor authentication.md",
-    " Authentication vulnerabilities /04 Vulnerabilities in multi-factor authentication/02 Two-factor authentication tokens.md",
-    " Authentication vulnerabilities /04 Vulnerabilities in multi-factor authentication/01 Introduction.md",
-    " Authentication vulnerabilities /03 Vulnerabilities in password-based login/16 Lab Broken brute-force protection, multiple credentials per request.md",
-    " Authentication vulnerabilities /04 Vulnerabilities in multi-factor authentication",
-    " Authentication vulnerabilities /03 Vulnerabilities in password-based login/15 User rate limiting.md",
-    " Authentication vulnerabilities /03 Vulnerabilities in password-based login/14 Account locking - Continued.md",
-    "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/05 Dangling markup injection/02 Lab Reflected XSS protected by very strict CSP, with dangling markup attack.md",
-    "ljoche endale bemibal dereja fkregna alachew.md",
-    "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/05 Dangling markup injection/dangling markup injection.md",
-    "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/04 Exploiting cross-site scripting vulnerabilities/Exploiting cross-site scripting to bypass CSRF protections.md",
-    "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/05 Dangling markup injection",
-    "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/04 Exploiting cross-site scripting vulnerabilities/05 Stored XSS – Stealing Credentials.md",
-    "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/04 Exploiting cross-site scripting vulnerabilities/04 Exploiting XSS to Capture Passwords — Explained Simply.md",
-    "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/04 Exploiting cross-site scripting vulnerabilities",
-    "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/03 DOM-based XSS",
-    "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/02 Stored XSS",
-    "Cross-site scripting (XSS)/02 What are the types of XSS attacks?/01 Reflected XSS"
+    "HTTP request smuggling/03 Finding HTTP request smuggling vulnerabilities/03 Finding TE.CL vulnerabilities using timing techniques.md",
+    "HTTP request smuggling/04 Confirming HTTP request smuggling vulnerabilities using differential responses",
+    "HTTP request smuggling/03 Finding HTTP request smuggling vulnerabilities/02 Finding CL.TE vulnerabilities using timing techniques.md",
+    "HTTP request smuggling/03 Finding HTTP request smuggling vulnerabilities/01 Finding HTTP request smuggling vulnerabilities using timing techniques.md",
+    "HTTP request smuggling/02 How to perform an HTTP request smuggling attack/07 Lab HTTP request smuggling, obfuscating the TE header.md",
+    "HTTP request smuggling/03 Finding HTTP request smuggling vulnerabilities",
+    "HTTP request smuggling/02 How to perform an HTTP request smuggling attack/06 TE.TE Obfuscation.md",
+    "HTTP request smuggling/02 How to perform an HTTP request smuggling attack",
+    "Untitled",
+    "SQL injection/04 Out-of-Band (OAST) Blind SQL Injection",
+    "SQL injection/03 Blind SQL injection/Untitled"
   ]
 }
